@@ -1,0 +1,57 @@
+name: Update VPN Configs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'   # every hour at minute 00 (UTC)
+
+jobs:
+  update-configs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Create virtual environment
+        run: python -m venv venv --copies
+
+      - name: Upgrade pip
+        run: ./venv/bin/python -m pip install --upgrade pip
+
+      - name: Install requirements
+        run: ./venv/bin/python -m pip install -r source/requirements.txt
+
+      - name: Run main script
+        run: ./venv/bin/python source/main.py
+
+      - name: Configure Git user
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Check for changes
+        run: |
+          git status
+          git diff --stat
+
+      - name: Commit changes if needed
+        run: |
+          git add .
+          git diff --cached --quiet || git commit -m "Auto-update VPN configs"
+
+      - name: Push changes if committed
+        run: |
+          if git log -1 --pretty=format:"%s" | grep -q "Auto-update VPN configs"; then
+            git push origin main
+          else
+            echo "No new commit to push."
+          fi

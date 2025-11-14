@@ -1,0 +1,8 @@
+trojan://er668@172.66.44.59:443?security=tls&encryption=none&fp=chrome&type=ws&path=/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN#%F0%9F%87%BA%F0%9F%87%B8%20Alibodama%20537029
+trojan://D3OJA7xY5U@209.200.246.53:10785?security=reality&sni=cloudflare.com&fp=chrome&pbk=Yj8X6ZHfj6UpI7-XxFpodTIoWKiZ5TYbNWj1LQqruCY&sid=20b09680&type=grpc&path=/#%F0%9F%87%A8%F0%9F%87%A6%20Alibodama%20207732
+trojan://1sbtkLK7F3@195.22.157.104:37085?path=%2Fmoshali2plus&security=tls&alpn=http%2F1.1&host=joon.arshiacomplus.dpdns.org&fp=chrome&type=httpupgrade&sni=joon.arshiacomplus.dpdns.org#%F0%9F%87%AC%F0%9F%87%A7%20Alibodama%20903552
+trojan://1sbtkLK7F3@195.22.157.104:37085?path=/moshali2plus&security=tls&alpn=http/1.1&host=joon.arshiacomplus.dpdns.org&fp=chrome&type=httpupgrade&sni=joon.arshiacomplus.dpdns.org#%F0%9F%87%AC%F0%9F%87%A7%20Alibodama%20554776
+trojan://D+elR9-TfYxo.X6JVnrMw@38.54.8.233:11254/?type=tcp&security=tls&sni=fluxfloss.click#%F0%9F%87%A6%F0%9F%87%AA%20Alibodama%20352583
+trojan://D%2BelR9-TfYxo.X6JVnrMw@38.54.8.233:11254?security=tls&headerType=none&type=tcp&sni=fluxfloss.click#%F0%9F%87%A6%F0%9F%87%AA%20Alibodama%20617907
+trojan://D%2BelR9-TfYxo.X6JVnrMw@38.54.8.233:11254?security=tls&headerType=none&type=tcp&sni=fluxfloss.click#%F0%9F%87%A6%F0%9F%87%AA%20Alibodama%20819273
+trojan://D+elR9-TfYxo.X6JVnrMw@38.54.8.233:11254?type=tcp&security=tls&sni=fluxfloss.click#%F0%9F%87%A6%F0%9F%87%AA%20Alibodama%20216699

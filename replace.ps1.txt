@@ -1,0 +1,25 @@
+﻿# ðŸ”„ Replace all "Alibodama" with "Alibodama" in all files and subfolders
+# ðŸ’¡ Made by ali gamer with ChatGPT ðŸ˜Ž
+
+$targetFolder = Get-Location  # Ù…Ø³ÛŒØ± ÙØ¹Ù„ÛŒ
+Write-Host "ðŸ” Ø¯Ø± Ø­Ø§Ù„ Ø¨Ø±Ø±Ø³ÛŒ Ù¾ÙˆØ´Ù‡: $targetFolder"
+Write-Host "ØªÙ…Ø§Ù… ÙØ§ÛŒÙ„â€ŒÙ‡Ø§ Ø¨Ø±Ø±Ø³ÛŒ Ùˆ ØªØºÛŒÛŒØ± Ø¯Ø§Ø¯Ù‡ Ø®ÙˆØ§Ù‡Ù†Ø¯ Ø´Ø¯..."
+
+# Ø¯Ø±ÛŒØ§ÙØª ØªÙ…Ø§Ù… ÙØ§ÛŒÙ„â€ŒÙ‡Ø§ Ùˆ Ø¬Ø§ÛŒÚ¯Ø²ÛŒÙ†ÛŒ Ù…ØªÙ†
+Get-ChildItem -Path $targetFolder -Recurse -File | ForEach-Object {
+    try {
+        $content = Get-Content $_.FullName -Raw -ErrorAction Stop
+        $newContent = $content -replace 'Alibodama', 'Alibodama'
+        if ($newContent -ne $content) {
+            Set-Content -Path $_.FullName -Value $newContent -Encoding UTF8
+            Write-Host "âœ… ØªØºÛŒÛŒØ± Ø¯Ø± ÙØ§ÛŒÙ„: $($_.FullName)"
+        }
+    }
+    catch {
+        Write-Host "âš ï¸ Ø®Ø·Ø§ Ø¯Ø± ÙØ§ÛŒÙ„: $($_.FullName)"
+    }
+}
+
+Write-Host "ðŸŽ¯ Ù‡Ù…Ù‡â€ŒÛŒ ÙØ§ÛŒÙ„â€ŒÙ‡Ø§ Ø¨Ø±Ø±Ø³ÛŒ Ø´Ø¯Ù†Ø¯ Ùˆ ØªØºÛŒÛŒØ±Ø§Øª Ø§Ù†Ø¬Ø§Ù… Ø´Ø¯."
+Pause
+
