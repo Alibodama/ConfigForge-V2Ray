@@ -95,3 +95,4 @@ Alibodama | t.me/alibodama`, null);
     return new Response("Alibodama Bot");
   }
 };
+fix: rename to _worker.js
