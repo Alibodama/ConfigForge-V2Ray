@@ -95,4 +95,3 @@ Alibodama | t.me/alibodama`, null);
     return new Response("Alibodama Bot");
   }
 };
-Add _worker.js for Telegram bot
