@@ -1,10 +1,6 @@
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@206.71.158.41:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%F0%9F%87%B3%F0%9F%87%B1%20Alibodama%20177249
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Alibodama%20288807
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&insecure=0&sni=api.kermanshahi.org#%F0%9F%87%A9%F0%9F%87%AA%20Alibodama%20374256
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%F0%9F%87%A9%F0%9F%87%AA%20Alibodama%20945087
-hysteria2://dongtaiwang.com@208.87.243.187:22222?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20Alibodama%20492223
-hy2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974/?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20Alibodama%20865847
-hysteria2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20Alibodama%20877179
-hysteria2://ae845cbd-08fb-4346-929a-e28a6f3960a8@203.23.128.217:24591?insecure=1&sni=hk1.shiyuandian.shop#%F0%9F%87%AD%F0%9F%87%B0%20Alibodama%20858884
-hy2://9c23940e-efd8-4763-bfb5-54739b50893d@156.226.173.8:8443/?insecure=1&sni=hy5.hy2yydsapi.top#%F0%9F%87%AD%F0%9F%87%B0%20Alibodama%20192855
-hysteria2://9c23940e-efd8-4763-bfb5-54739b50893d@156.226.173.8:8443?insecure=1&sni=hy5.hy2yydsapi.top#%F0%9F%87%AD%F0%9F%87%B0%20Alibodama%20436246
+hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%F0%9F%87%A9%F0%9F%87%AA%20Alibodama%20328742
+hysteria2://dongtaiwang.com@208.87.243.187:22222?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20Alibodama%20289516
+hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?insecure=1&sni=www.apple.com#%F0%9F%87%BA%F0%9F%87%B8%20Alibodama%20764636
+hy2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974/?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20Alibodama%20768897
+hysteria2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974?insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8%20Alibodama%20153224
+hysteria2://ae845cbd-08fb-4346-929a-e28a6f3960a8@203.23.128.217:24591?insecure=1&sni=hk1.shiyuandian.shop#%F0%9F%87%AD%F0%9F%87%B0%20Alibodama%20645917
